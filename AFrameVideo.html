@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <title>360&deg; Image</title>
     <meta name="description" content="360&deg; Image - A-Frame">
-    <script src="../A-Frame/aframe-master.min.js"></script>
+    <script src="aframe-master.min.js"></script>
   </head>
   <body bgcolor="#FFFFFF">
 <a-scene>
   <a-assets>
-    <video id="penguin-sledding" autoplay loop="true" src="EyeHandSmall.mov"></video>
+    <video id="eyeVid" autoplay loop="true" src="EyeHandSmall.mov"></video>
   </a-assets>
 <a-sky color="#FFFFFF"></a-sky>
 
   <!-- Using the asset management system. -->
-  <a-video src="#penguin-sledding" width="32" height="18" position="0 0 -15"></a-video>
+  <a-video src="#eyeVid" width="32" height="18" position="0 0 -15"></a-video>
 
 </a-scene>
   </body>
